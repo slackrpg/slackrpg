@@ -1,0 +1,74 @@
+{
+    
+    // Set the system up to scan a browser project
+    "node"    : true,
+    "strict"  : false,
+    
+    
+    // ---------------------------------------------------------------------------------------------------------------
+    
+    // Use ES6
+    "esnext" : true,
+    
+    // Prevent bitwise operator usage, which are easy to mess up
+    "bitwise" : true,
+    
+    // Require curly braces on blocks
+    "curly"   : true,
+    
+    // Prevent weak comparisons (force ===)
+    "eqeqeq"  : true,
+    
+    // Force filtering out of inherited properties in for...in loops
+    "forin"   : true,
+    
+    // Force variables to be defined before use
+    "latedef" : true,
+    
+    // Prevent various calls to deprecated argument functions
+    "noarg"   : true,
+    
+    // Prevent Mac users from entering non-breaking whitespace (option+space)
+    "nonbsp"  : true,
+    
+    // Prevent the new keyword from being used
+    "nonew"   : true,
+    
+    // Do not allow undeclared variables
+    "undef"   : true,
+    
+    // Don't warn on unused variables
+    "unused"  : false,
+    
+    
+    // ---------------------------------------------------------------------------------------------------------------
+    
+    
+    // Set maximums to keep this codebase simple
+    "maxcomplexity" : 6,
+    "maxdepth"      : 4,
+    "maxparams"     : 4,
+    "maxstatements" : 15,
+    
+    
+    // ---------------------------------------------------------------------------------------------------------------
+    
+    
+    // Relax warnings about line spacing (let ESLint handle this)
+    "laxbreak" : true,
+    
+    // Relax warnings about using bracket notation over dot notation (let ESLint handle this)
+    "sub"      : true,
+    
+    
+    // ---------------------------------------------------------------------------------------------------------------
+    
+    
+    // Globals for dependencies
+    "predef": [
+        "requirejs",
+        "require",
+        "define"
+    ]
+    
+}

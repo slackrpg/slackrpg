@@ -37,23 +37,19 @@ var Bunyan = require('bunyan'),
 
 
 slack.on('open', function() {
-    
+
     logger.info('Connected to ' + slack.team.name + ' as @' + slack.self.name);
-    
-    
-    
-    
+
 });
 
 
 slack.on('error', function(error) {
-    logger.error("ERROR: " + error);
+    logger.error('ERROR: ' + error);
 });
 
 
-logger.info("Connecting instance...");
+logger.info('Connecting instance...');
 slack.login();
-
 
 
 /*
@@ -117,5 +113,4 @@ slack.on('message', function(message) {
 });
  
 slack.login();
-
 */
