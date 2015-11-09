@@ -11,6 +11,11 @@ levels, kill monsters, go on quests, and even attack each other by doing one thi
 SlackRPG connects many worlds together, so you can run it on your own team's Slack instance!  Won't you play with us?
 
 
+## Build Status
+
+[![Build Status][build-image]][build-url]
+
+
 ### Connecting to SlackRPG
 
 Coming soon.
@@ -76,3 +81,6 @@ Copyright &copy; 2015 Andrew Vaughan - Released under the [MIT license](LICENSE)
 
 [repo-url]:         https://github.com/andrewvaughan/slackrpg
 [screen-image]:     http://slackrpg.andrewvaughan.io/img/screen.png
+[build-url]:        https://travis-ci.org/andrewvaughan/slackrpg
+[build-image]:      https://travis-ci.org/andrewvaughan/slackrpg.svg?branch=master
+
