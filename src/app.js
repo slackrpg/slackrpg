@@ -1,7 +1,7 @@
 var Bunyan = require('bunyan'),
     Slack = require('slack-client'),
 
-    config = require('./config'),
+    config = require('../config'),
 
     slack = new Slack(config.slack.key, true, true),
 
@@ -21,7 +21,7 @@ slack.on('open', function() {
 
 
 slack.on('error', function(error) {
-    logger.error("ERROR: " + error)
+    logger.error("ERROR: " + error);
 });
 
 
