@@ -15,6 +15,7 @@ SlackRPG connects many worlds together, so you can run it on your own team's Sla
 
 [![Build Status][build-image]][build-url]
 [![Documentation Status][docs-image]][docs-url]
+[![Dependency Status][dependency-image]][dependency-url]
 
 
 ### Connecting to SlackRPG
@@ -86,4 +87,5 @@ Copyright &copy; 2015 Andrew Vaughan - Released under the [MIT license](LICENSE)
 [build-image]:      https://travis-ci.org/andrewvaughan/slackrpg.svg?branch=master
 [docs-image]:       http://inch-ci.org/github/andrewvaughan/slackrpg.svg?branch=master
 [docs-url]:         http://inch-ci.org/github/andrewvaughan/slackrpg
-
+[dependency-image]: https://david-dm.org/andrewvaughan/slackrpg.svg
+[dependency-url]:   https://david-dm.org/andrewvaughan/slackrpg
