@@ -1,0 +1,33 @@
+##
+# Please do not commit OS/IDE/Environment files into this repository.  Please
+# follow best practices and move these files into your global .gitignore:
+# 
+# https://help.github.com/articles/ignoring-files/#create-a-global-gitignore
+
+
+config.js
+
+
+## Logs
+logs
+*.log
+
+## Runtime
+pids
+*.pid
+*.seed
+
+## Coverage files
+lib-cov
+coverage
+
+## node-waf configuration
+.lock-wscript
+
+## Compiled items
+## http://nodejs.org/api/addons.html
+build
+
+## Dependency directory
+## https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules

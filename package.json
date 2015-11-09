@@ -1,0 +1,31 @@
+{
+    "name"        : "slackrpg",
+    "description" : "An RPG game for Slack.",
+    "version"     : "0.0.0",
+    
+    "author": {
+        "name" : "Andrew Vaughan",
+        "url"  : "http://andrewvaughan.io"
+    },
+    
+    "license" : "MIT",
+    "private" : true,
+    
+    "repository"   : "andrewvaughan/slackrpg",
+    "bugs"         : "https://github.com/andrewvaughan/slackrpg/issues",
+    "contributors" : "https://github.com/andrewvaughan/slackrpg/graphs/contributors",
+    
+    "engines": {
+        "node": "~4.1.2"
+    },
+    
+    "scripts": {
+        "start" : "node index.js | ./node_modules/bunyan/bin/bunyan",
+        "test"  : "gulp test"
+    },
+    
+    "dependencies": {
+        "bunyan"       : "1.5.1",
+        "slack-client" : "1.4.1"
+    }
+}
