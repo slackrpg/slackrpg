@@ -7,3 +7,11 @@ before_script:
 cache:
     directories:
         - node_modules
+addons:
+    code_climate:
+        repo_token:
+            secure: "Tv22lHCsQa3qzo7vUAgREGa4YAXI4QPDpkse1adfmzu277W6m2xIWHBBMLZCtBpmeY7GqtbRWvTZKqO9VnxQSqRi+2xt5yXAfEiX3EDrpWYLJiLnd4BcczQpHTxU1kiVnEJ4Mf2C5a3Il6KbkoF8gr5k5jas9nbTbZzVSQKYsBJCB6AkbGlwFIKiA/kg8E+QzlDfmKYrd9ho9T9Y4OcIQGllfd7BoTctl0YuAhIx+EcESAIXK3nSiubYQjOz5iDzj1jzq+hqfgwis6/e0YwOVELaIdOTVDMGuFMRkf7eRZEGg5aMKxgmDgAnq5y9TRXWzxaA2ZJ5/j6pbtxTS9C5pf72UR1gjRYaY//e+kGGOXtGp29PkNOMwj5ft0l8ZM+7S+cW/YkXMhtg1Aqe2aoN6Y1lA4YBQ1GPMdE2Q6nd7x17gc1ALRmgsZuE6DcjwGLSoOIKrd6rUTVsTujPj9G0tk2Dp/8BluXQOdzqaGuvLxKEsHHjtr2rw+HBYvd8DzW/86A9nCfAjmtf134ti5swq4WnbBIrWvpydpu22lO2V2eA6BTuztbwL954sBZaS2pnI12pcoDIx6VDmAEJoAUXk8ImtY6oY9GLfNhrFPrvLshFcVMnrY820h6WTVZtksJe2NLjA3Du6H+M40QYJkaH8anQw9mbwF6QGoajSf5grbg="
+after_script:
+    - npm install codeclimate-test-reporter
+    - gulp coverage
+    - codeclimate-test-reporter < coverage/lcov.info

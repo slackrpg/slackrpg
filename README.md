@@ -14,6 +14,8 @@ SlackRPG connects many worlds together, so you can run it on your own team's Sla
 ## Build Status
 
 [![Build Status][build-image]][build-url]
+[![Code GPA][quality-image]][quality-url]
+[![Coverage Status][coverage-image]][quality-url]
 [![Documentation Status][docs-image]][docs-url]
 [![Dependency Status][dependency-image]][dependency-url]
 
@@ -89,3 +91,6 @@ Copyright &copy; 2015 Andrew Vaughan - Released under the [MIT license](LICENSE)
 [docs-url]:         http://inch-ci.org/github/andrewvaughan/slackrpg
 [dependency-image]: https://david-dm.org/andrewvaughan/slackrpg.svg
 [dependency-url]:   https://david-dm.org/andrewvaughan/slackrpg
+[coverage-image]:   https://codeclimate.com/github/andrewvaughan/slackrpg/badges/coverage.svg
+[quality-image]:    https://codeclimate.com/github/andrewvaughan/slackrpg/badges/gpa.svg
+[quality-url]:      https://codeclimate.com/github/andrewvaughan/slackrpg
